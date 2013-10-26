@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
+<channel>
+  <title>ROR Sitemap for http://elrefresco.com/</title>
+  <link>http://elrefresco.com/</link>
+
+<item>
+     <link>http://elrefresco.com/</link>
+     <title>El Refresco - Programación Web</title>
+     <description>Codificación de vanguardia para su sitio, haciendo uso de las mas modernas técnicas para garantizar una imagen e interactividad con las ultimas tecnologías para visualizar sitios web.  Desarrollo de código limpio y rápido en el corazón de su proyecto. Nos aseguramos de trabajar en su sitio para que este optimizado para cargar con eficiencia.</description>
+     <ror:updatePeriod>monthly</ror:updatePeriod>
+     <ror:sortOrder>0</ror:sortOrder>
+     <ror:resourceOf>sitemap</ror:resourceOf>
+</item>
+</channel>
+</rss>
+  

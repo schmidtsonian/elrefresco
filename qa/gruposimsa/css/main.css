@@ -156,7 +156,96 @@
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-    
+    h1{
+        font-weight: 700;
+        font-size: 48px;
+        color: #fff;
+        background: none no-repeat scroll 0 0 #23262f;
+        display: inline;
+        padding: 5px 14px 11px 15px;
+        float: left;
+        clear: both;
+        margin: 250px 0 5px 0;
+    }
+        #slider h2{
+            font-weight: 300;
+            font-size: 30px;
+            color: #fff;
+            background: none no-repeat scroll 0 0 #23262f;
+            display: inline;
+            padding: 5px 14px 11px 15px;
+            float: left;
+            clear: both;
+        }
+    h2, h3{
+        font-weight: 700;
+        color: #f0c500;
+        font-size: 38px;
+        text-align: center;
+    }
+    h3{
+        font-weight: 600;
+        font-size: 24px;
+        padding-bottom: 24px;
+    }
+    h4{
+        font-size: 20px;
+        color: #ecf0f1;
+        text-align: center;
+        font-style: italic;
+    }
+    p,
+    p strong{
+        color: #fff;
+        font-size: 16px;
+        text-align: center;
+        line-height: 35px;
+    }
+        p strong{
+            color: #f0c500;
+        }
+    p.title{
+        font-size: 23px;
+    }
+        p.title span{
+            font-size: 30px;
+        }
+    p.direction{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.5em;
+        padding-top: 80px;
+    }
+    a{
+        color: #fff;
+        text-align: center;
+    }
+    span.link{
+        font-style: italic;
+    }
+    span.contact{
+        padding-top: 142px;
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    .line-1,
+    .line-2,
+    .line-3{
+        padding: 24px 0 0 0;
+        margin: 0px auto 24px auto;
+        border-bottom: 1px solid #6c748f;
+        width: 150px;
+    }
+    .line-2{
+        border-bottom: 1px solid #f0c500;
+    }
+    .line-3{
+        border-bottom: 1px solid #3d4354;
+        margin-bottom: 0px;
+        padding: 13px 0 0 0;
+    }
     .wrapper{
         width: 960px;
         position: relative;
@@ -380,6 +469,41 @@
     }
     .grey-3{
         background: none no-repeat scroll 0 0 #23262f;
+    }
+    .grey-4{
+        background: none no-repeat scroll 0 0 #181a20;
+    }
+
+    .icon-social{
+        background-position: center center;
+        transition: .2s;
+        -webkit-transition: .2s;
+    }
+        a:hover .icon-social,
+        a:focus .icon-social{
+            opacity: .7;
+        }
+    .icon-social-facebook{
+        background-image: url( "../img/facebook-simsa.png" );
+    }
+    .icon-social-twitter{
+        background-image: url( "../img/twitter-simsa.png" );
+    }
+    .icon-contact{
+        background-image: url( "../img/contacto-simsa.png" );
+        background-position: center 83px;
+    }
+    .icon-telephone{
+        background-image: url( "../img/telefono-simsa.png" );
+        background-position: center 83px;
+    }
+    .icon-direction{
+        background-image: url( "../img/contacto-simsa.png" );
+        background-position: center 25px;
+    }
+    .map{
+        background-image: url( "../img/mapa-grupo-simsa.png" );
+        background-position: center 200px;
     }
 
 /* ==========================================================================

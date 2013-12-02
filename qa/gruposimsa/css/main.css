@@ -132,6 +132,7 @@
     body {
         line-height: 1;
         background: none no-repeat scroll 0 0 #575d70;
+        overflow-x: hidden;
     }
     ol, ul {
         list-style: none;
@@ -166,6 +167,8 @@
         float: left;
         clear: both;
         margin: 250px 0 5px 0;
+        transition: .5s;
+        -webkit-transition: .5s;
     }
         #slider h2{
             font-weight: 300;
@@ -176,6 +179,8 @@
             padding: 5px 14px 11px 15px;
             float: left;
             clear: both;
+            transition: .5s;
+            -webkit-transition: .5s;
         }
     h2, h3{
         font-weight: 700;
@@ -646,6 +651,23 @@
             }
         #mobile-nav-main{
             display: block;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .wrapper,
+        .grid-1x1,
+        .grid-2x1,
+        .grid-2x2{
+            width: 100%;
+        }
+        h1{
+            margin: 150px 0 5px 0;
+        }
+        img.grid-bg{
+            width: 100% !important;
+            height: auto !important;
+            left: 0 !important;
+            top: 0 !important;
         }
     }
     
